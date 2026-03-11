@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --legal-navy: #0f172a;
+  --legal-slate: #1e293b;
+  --legal-stone: #475569;
+  --legal-cream: #f8fafc;
+  --legal-accent: #0ea5e9;
+  --legal-accentDark: #0284c7;
+}
+
+body {
+  color: var(--legal-navy);
+  background: var(--legal-cream);
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
